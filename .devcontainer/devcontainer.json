@@ -1,0 +1,21 @@
+{
+    "name": "Java 17 Gradle",
+    "image": "mcr.microsoft.com/devcontainers/java:17-buster",
+    "remoteUser": "vscode",
+    "workspaceMount": "source=${localWorkspaceFolder}/development,target=/workspace,type=bind",
+    "workspaceFolder": "/workspace",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "none",
+            "installGradle": "true",
+            "installMaven": "false"
+        }
+    },
+    "extensions": [
+        "vscjava.vscode-java-pack",
+		"redhat.vscode-xml",
+		"fwcd.kotlin",
+        "pivotal.vscode-boot-dev-pack",
+        "naco-siren.gradle-language"
+    ]
+}
