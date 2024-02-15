@@ -1,5 +1,6 @@
 {
     "name": "Java 17 Gradle",
+    "appPort": [8000, 8080],
     "image": "mcr.microsoft.com/devcontainers/java:17-buster",
     "remoteUser": "vscode",
     "workspaceMount": "source=${localWorkspaceFolder}/development,target=/workspace,type=bind",
